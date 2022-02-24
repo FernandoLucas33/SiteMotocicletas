@@ -64,17 +64,11 @@ header span {
 }
 
 .hero figure {
-  overflow: hidden;
   -webkit-animation: hero-foto 1.5s ease-in-out forwards;
           animation: hero-foto 1.5s ease-in-out forwards;
   border-radius: 10px;
   -webkit-box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.26);
           box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.26);
-}
-
-.hero figure img:hover {
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
 }
 
 @-webkit-keyframes fundo {
@@ -230,6 +224,30 @@ header span {
 .item-ativo {
   -webkit-animation: tipos 1.5s  ease-in-out forwards;
           animation: tipos 1.5s  ease-in-out forwards;
+}
+
+footer {
+  background-color: #282726;
+  height: 10em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer p {
+  color: white;
+  padding-right: 2em;
+}
+
+footer a img {
+  width: 10%;
+  height: auto;
 }
 
 * {
